@@ -1,0 +1,2224 @@
+<style>
+        html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.h1.page-header, .page-header {
+     display: none !important;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1248px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.blue-rectangle {
+    background-image: linear-gradient(180deg, #d0e5f0 0%, #bddeef 100%);
+    display: block;
+    margin: 30px auto 0;
+    height: 443px;
+}
+
+.figure-rectangle-top {
+    position: absolute;
+    top: 190px;
+    margin-left: 20%;
+}
+
+.blue-rectangle-inner {
+    padding: 5%;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.blue-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.text-wrapper {
+    width: 225px;
+    z-index: 1;
+}
+
+.blue-text {
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #174985;
+    font-family: "Open-Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.video-wrapper {
+    border: 6px solid #0095cc;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 375px;
+    height: 208px;
+    z-index: 1;
+}
+
+.figure-rectangle-bottom {
+    margin-top: -110px;
+    margin-left: 30%;
+    z-index: -10;
+}
+
+.blue-line {
+    height: 112px;
+    background-color: #273574;
+    display: block;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.blue-line > a {
+    cursor: pointer;
+}
+
+.inner-section {
+    width: 100%;
+    max-width: 1248px;
+    position: relative;
+}
+
+.first-section {
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.first-text {
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.free-sample {
+    position: fixed;    
+    height: 237px;
+    width: 80px;
+    right: 0;
+    top: 100px;
+    margin-top: 66px;
+background-image: url('../sites/g/files/dnigna286/files/free-sample.png');
+    z-index: 10000;
+ }
+
+ .free-sample-text {
+     transform: rotate(90deg);
+     color: #fff;
+     text-transform: uppercase;
+     margin-top: 130px;
+     margin-left: -38px;
+     width: 160px;
+ }
+
+ .first-section-blue-block {
+    background-image: linear-gradient(to right, rgba(208, 229, 240, 0) 0%, #bddeef 100%);
+    margin-top: 76px;
+    display: flex;
+    position: relative;
+ }
+
+ .first-section-blue-block > img {
+     display: inline-block;
+ }
+
+ .first-section-img-mob {
+     display: none;
+ }
+
+ .lack-energy {
+     display: inline-block;
+     margin-left: -20%;
+}
+
+ .lack-energy-content {
+    margin-top: 20px;
+    margin-left: 20%;
+ }
+
+ .lack-energy-content > h2 {
+    width: 352px;
+    text-transform: uppercase;
+    color: #174985;
+    font-size: 26px;
+    font-weight: 600;
+    display: inline-block;
+ }
+
+ .lack-energy-content > p {
+     margin-top: 10px;
+     line-height: 20px;
+     color: #373737;
+     width: 395px;
+ }
+
+ .red-button-field {
+     display: flex;
+     justify-content: left;
+     margin-top: 20px;
+ }
+
+ .take-test-btn {
+     width: 173px;
+     height: 31px;
+     background-image: url('../sites/g/files/dnigna286/files/take-test-btn_0.png');
+     border: none;
+     cursor: pointer;
+     text-align: center;
+     color: #ffffff;
+     font-weight: 400;
+     padding-top: 8px;
+     background-repeat: no-repeat;
+ }
+
+ .small-figure {
+     position: absolute;
+     right: 0;
+     bottom: 20px;
+ }
+
+ .second-section > h2 {
+    line-height: 37px;
+    color: #174985;
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+ }
+
+ .second-section > p {
+    line-height: 30px;
+    color: #273574;
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 22px;
+    max-width: 648px;
+    text-align: center;
+    margin: 10px auto 20px;
+ }
+
+ .two-bloks-container {
+     display: block;
+     margin: 36px auto;
+     width: 648px;
+ }
+
+.discover {
+    color: #273574;
+    font: 20px 'Open-Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+ .two-bloks {     
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .second-section-block {
+     width: 300px;
+ }
+
+ .second-section-block > img {
+     display: block;
+     margin: 0 auto;
+ }
+
+ .second-section-block > h3 {
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #273574;
+    font-family: "Open-Sans", sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 55px;
+    font-weight: 600;
+ }
+
+ .second-section-block > p {
+    line-height: 25px;
+    color: #273574;
+    font-family: "Open-Sans", sans-serif;
+    text-align: center;
+ }
+
+ .third-section {
+     width: 90%;
+     margin: 60px auto;
+     background-image: linear-gradient(to right, #d0e5f0 0%, #bddeef 100%);
+ }
+
+ .section-inner {
+     width: 80%;
+     margin: 20px auto;
+     display: flex;
+     justify-content: space-between;  
+     padding: 40px 0;   
+ }
+
+ .h2 {
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #174985;
+    font-family: "Open-Sans", sans-serif;
+    font-size: 27px;
+    text-align: center;
+ }
+
+.optimum-features > h2 {
+    font-weight: 600;
+}
+
+ .optimum-features > ul {
+     margin-top: 20px;
+ }
+
+ .optimum-features > ul > li {
+    line-height: 25px;
+    color: #273574;
+    font-family: "Open-Sans", sans-serif;
+    font-size: 18px;
+ }
+
+ .optimum-features-mob {
+     display: none;
+ }
+
+.fifth-section {
+    width: 90%;
+    margin: 60px auto;
+    background-image: linear-gradient(to top, rgba(208, 229, 240, 0) 0%, #bddeef 100%);
+    padding: 40px 0;
+}
+
+.fifth-section > h2 {
+      font-weight: 600;
+} 
+
+.blue-buy-wrapper {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 674px;
+    height: 121px;
+}
+
+.blue-line-buy {
+    width: 674px;
+    height: 121px;
+    background-color: #174985;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-left: 30px;  
+}
+
+.cart-block {
+    width: 136px;
+    height: 121px;
+    background-image: url('../sites/g/files/dnigna286/files/cart-block.png');
+    position: absolute;
+    left: -30px;
+}
+
+.small-figure-buy {
+    position: absolute;
+    left: 90px;
+    bottom: 10px;
+    z-index: 100;
+}
+
+.blue-inner-content {
+    margin-left: 115px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.blue-text-block {
+    margin-top: 27px;
+    width: 100%;
+}
+
+.blue-text-block > h3 {
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Open-Sans", sans-serif;
+    font-size: 25px;
+}
+
+.blue-text-block > p {
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Open-Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.blue-content-wrapper-btn {
+    margin-top: 18px;
+}
+
+.blue-btn {
+    width: 152px;
+    height: 33px;
+    background-image: linear-gradient(to right, #d0e5f0 0%, #bddeef 100%);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: none;
+    color: #174985;
+    font-family: "Open-Sans", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.centered-compact-block {
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.prepare-mob {
+    display: none;
+}
+
+.consumption-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.consumption-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.consumption-item-content-left {
+    margin-right: -118px;
+    width: 259px;
+    height: 80px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #b3b7ce 99.8711%, #b3b7ce 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.consumption-item-content-left > p {
+    line-height: 25px;
+    color: #273574;
+    font-family: "Helvetica", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    width: 198px;
+    text-align: right;
+    margin-left: -40px;
+}
+
+.consumption-photo,
+.consumption-photo-right {
+    position: relative;
+    width: 185px;
+    height: 163px;
+}
+
+.consumption-photo > img {
+    position: absolute;
+    right: -30px;
+}
+
+.item-bottom {
+    margin-top: 85px;
+}
+
+.consumption-item-content-right {
+    width: 259px;
+    height: 80px;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, #b3b7ce 99.8711%, #b3b7ce 100%);
+    margin-left: -80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.consumption-item-content-right > p {
+    line-height: 20px;
+    color: #273574;
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    width: 198px;
+    text-align: left;
+    margin-left: 70px;
+}
+
+.consumption-photo-right > img {
+    position: absolute;
+    left: -10px;
+}
+
+.consumption-small-figure {
+    margin-top: 25px;
+    margin-left: 220px;    
+}
+
+.right-top-figure {
+    position: absolute;
+    right: 40px;
+    top: -80px;
+}
+
+.left-bottom-figure {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -220px;
+}
+
+.consumption-container-mobile {
+    display: none;
+}
+
+.where-to-buy-mob {
+    display: none;
+}
+
+.bx-wrapper .bx-controls-direction a {
+      z-index: 100 !important;
+}
+
+.sixth-block {
+    background-image: linear-gradient(to bottom, #bddeef 0%, #ffffff 50%, #bddeef 100%);
+    width: 90%;
+    padding: 60px 0;
+}
+
+.sixth-block > h2 {
+      font-weight: 600;
+}
+
+.outher-content-wrapper {
+    width: 70%;
+    margin: 34px auto 0;
+    display: block;
+}
+
+.img-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.reminders {
+    background-image: linear-gradient(to right, #d0e5f0 0%, #bddeef 100%);
+    width: 90%;
+    padding: 20px 32px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 20px;
+}
+
+.reminders > h3 {
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #273574;
+    font-family: "Open-Sans", sans-serif;
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.reminders > ol > li {
+    color: #273574;
+    font-family: "Open-Sans", sans-serif;
+    line-height: 1.5;
+    font-size: 19px;
+    margin-left: 20px;
+    margin-top: -23px;
+}
+
+.reminders > ol  {
+    color: #273574;
+}
+
+.link-content-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.text-info, .text-info-2 {
+    line-height: 31px;
+    color: #273574;
+    font-family: "Open-Sans", sans-serif;
+    font-size: 24px;
+}
+
+.text-info-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    width: 400px;
+}
+
+.here {
+    width: 85px;
+    height: 30px;
+    background-image: url('../sites/g/files/dnigna286/files/here.png');
+    border: none;
+    display: block;
+    cursor: pointer;
+    /*text-align: center;
+     color: #ffffff;
+     font-weight: 400;
+     padding-top: 8px;
+     background-repeat: no-repeat;*/
+}
+
+.slider-container {
+    margin-top: 50px;
+}
+
+.resources-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.resource-item {
+    position: relative;
+    margin-top: 55px;
+    margin: 60px 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.resource-blue-block {
+    width: 268px;
+    height: 376px;
+    background-color: #174985;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 20px;
+}
+
+.resource-blue-block > h3 {
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Open-Sans", sans-serif;
+    font-size: 16px;
+    margin-top: 120px;
+    font-weight: 600;
+}
+
+.resource-blue-block > p {
+    line-height: 15px;
+    color: #ffffff;
+    font-family: "Open-Sans", sans-serif;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.blue-read-more {
+    position: absolute;
+    background-image: linear-gradient(to right, #d0e5f0 0%, #bddeef 100%);
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    bottom: 30px;
+    color: #174985;
+    font-family: "Open-Sans", sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    text-align: left;
+}
+
+.resource-photo {
+    position: absolute;
+    top: -60px;
+}
+
+.blue-mini-figure {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+/*Slider*/
+
+.slider-wrapper {
+    display: block;
+    margin: 40px auto;
+    max-width: 780px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: #d4d3d4 !important;
+    }
+.bx-pager.bx-default-pager a.active {
+    background: #273574 !important;
+} 
+
+
+.bx-wrapper .bx-prev, .bx-wrapper .bx-prev:hover {
+    background-image: url('../sites/g/files/dnigna286/files/prev.png') !important;
+    background-position: 0 !important;    
+    margin-left: -80px !important;
+    width: 40px !important;
+    height: 50px !important;
+    background-repeat: no-repeat;
+}
+
+.bx-wrapper .bx-next, .bx-wrapper .bx-next:hover {
+    background-image: url('../sites/g/files/dnigna286/files/next.png') !important;
+    background-position: 0 !important;    
+    margin-right: -80px !important;
+    width: 40px !important;
+    height: 50px !important;
+    background-repeat: no-repeat;
+}
+
+.bx-wrapper {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    background: none !important;
+}
+
+.bx-wrapper .bx-pager {
+    padding-top: 50px !important;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    margin: 0 13px !important;
+}
+
+/*Tiny Slider*/
+.tns-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.tns-nav button {
+  width: 18px;
+  height: 18px;
+  margin: 2.5px;
+  border: 2px solid #174985;
+  border-radius: 50%;
+  outline: none;
+  background: white;
+}
+
+button.tns-nav-active {
+  position: relative;
+  background: #174985;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button.tns-nav-active::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+
+  border-radius: 50%;
+  background: #174985;
+  border: 2px white solid;
+  z-index: 2;
+}
+
+.slider-cunsomers-mobile {
+    display: none;
+}
+
+/*Menu Toggle Mobile*/
+.arrow-toggle {
+    display: none;
+}
+.arrow-1, .arrow-2, .arrow-3, .arrow-4, .arrow-5, .arrow-6, .arrow-7 {
+    display: none;
+}
+
+
+@media screen and (max-width: 1152px) {
+    .right-top-figure {
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .blue-rectangle {
+        height: auto;
+        width: 100%;
+    }
+
+    .blue-line {
+        width: 100%;
+    }
+
+    .video-wrapper {
+        margin-top: 40px;
+    }
+
+    .third-section {
+        width: 100%;
+    }
+
+    .fifth-section {
+        width: 100%;
+    }
+
+    .sixth-block {
+        width: 100%;
+    }
+
+    .resource-blue-block {
+        width: 230px;
+    }
+
+    .img-wrapper > img {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 998px) {
+    .blue-rectangle {
+        margin: 30px auto 0;
+    }
+
+    .figure-rectangle-top {
+        top: 183px;
+    }
+
+    .lack-energy {
+        margin-left: -25%;
+    }    
+}
+
+@media screen and (max-width: 900px) {
+    .bx-wrapper .bx-prev, .bx-wrapper .bx-prev:hover {
+        margin-left: -70px !important;
+    }
+}   
+
+@media screen and (max-width: 940px) {
+    .lack-energy-content {
+        margin-left: 6%;
+    }
+
+    .slider-wrapper {
+        max-width: 600px;
+    }
+
+    .bx-wrapper img {
+        max-width: 77%;
+    }
+}
+
+@media screen and (max-width: 868px) {
+    .lack-energy-content > h2 {
+        width: 320px;
+        font-size: 22px;
+    }
+
+    .section-inner > img {
+        height: 210px;
+    }
+
+    .small-figure {
+        right: 0;
+        bottom: -27px;
+    }
+}
+
+@media screen and (max-width: 824px) {
+    .lack-energy-content > h2 {
+        width: 290px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .resources-wrapper {
+        display: block;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .resource-blue-block {
+        width: 95%;
+        height: 300px;
+        margin-top: 50px;
+    }
+
+    .resource-photo {
+        top: -20px;
+    }
+
+    .consumption-item-content-left,
+    .consumption-item-content-right {
+        width: 240px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .first-section {
+        width: 100%;
+    }
+
+    .first-text {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .section-inner {
+        width: 90%;
+    }
+
+    .section-inner > img {
+        margin-right: 20px;
+    }
+
+    .slider-wrapper {
+        max-width: 550px;
+    }
+
+    .bx-wrapper img {
+        max-width: 75%;
+    }
+}
+
+@media screen and (max-width: 724px) {
+    .figure-rectangle-top {
+        top: 143px;
+    }
+
+    .blue-line-buy {
+        width: auto;
+    }
+
+    .lack-energy-content {
+        width: 90%;
+    }
+
+    .outher-content-wrapper {
+        width: 100%;
+    }
+
+    .reminders {
+        width: 83%;
+        margin: 0 auto;
+    }
+
+    .img-wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .img-wrapper > img {
+        width: 55%;
+    }
+
+    .cart-block {
+        left: -10px;
+    }
+
+    .slider-container {
+        margin-top: 20px;
+    }
+
+    .tns-nav {
+        margin-top: -30px;
+    }
+
+    .tns-nav button {
+        border: 0;
+        background:#ffffff;
+        opacity: 0.5;
+    }
+
+    button.tns-nav-active {
+        background: #ffffff;
+        border: none;
+        opacity: 1;
+    }
+
+    button.tns-nav-active::after {
+        opacity: 0.5;
+        content: none;
+        border: none;        
+    }
+
+    .consumption-item-content-left, 
+    .consumption-item-content-right {
+        width: 224px;
+    }
+}
+
+@media screen and (max-width: 714px) {
+    .consumption-line {
+        display: block;
+    }
+
+    .consumption-item-content-left {
+        width: 290px;
+    }
+
+    .consumption-item-content-left,
+    .consumption-item-content-right {
+        background-image: none;
+    }
+
+    .consumption-item-content-left > p {
+        margin-top: 92px;
+        margin-left: 12px;
+    }
+
+    .consumption-item-content-right > p {
+        margin-left: 56px;
+        margin-top: 14px;
+    }
+
+    .lack-energy-content > p {
+        width: 325px;
+    }
+
+    .cart-block {
+        left: -2px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+
+    .slider-wrapper {
+        max-width: 450px;
+    }
+
+    .bx-wrapper img {
+        max-width: 72%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .lack-energy-content > p {
+        width: 225px;
+    }
+
+    .blue-line-buy,
+    .blue-buy-wrapper {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .two-bloks-container {
+        width: 100%;
+    }
+
+    .second-section > p {
+        max-width: none;
+    }
+
+    .second-section-block {
+        width: 45%;
+    }
+
+    .cart-block {
+        left: 0px;
+    }
+
+    .second-section-block > p {
+        padding: 10px;
+}
+
+    .blue-inner-content {
+        margin-left: 115px;
+        display: block; 
+        justify-content: space-between;
+}
+
+    .blue-buy-wrapper {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .blue-text-block,
+    .blue-content-wrapper-btn {
+        text-align: center;
+    }
+
+    .lack-energy-content > h2 {
+        width: auto;
+    }
+
+    .second-section > h2 {
+        line-height: 0px;
+    }
+
+    .discover {
+        width: 90%;
+        margin: 0 auto 30px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .red-button-field {
+        margin-top: 10px;
+    }
+
+    .small-figure {
+        bottom: -50px;
+    }
+
+    .lack-energy-content > p {
+        width: 205px;
+    }
+
+    .slider-wrapper {
+        max-width: 400px;
+    }
+
+    .bx-wrapper img {
+        max-width: 70%;
+    }
+
+    .bx-wrapper .bx-prev, .bx-wrapper .bx-prev:hover {
+        margin-left: -40px !important;
+    }
+    
+    .bx-wrapper .bx-next, .bx-wrapper .bx-next:hover {
+        margin-right: -55px !important;
+    }
+
+    .free-sample {
+    margin: 0 auto;
+    top: -90px;
+    left: 0;
+    transform: rotate(-90deg);
+    z-index: 10000;
+    height: 223px;
+    width: 95px;
+ }
+
+ .free-sample-text {     
+     margin-top: 130px;
+     margin-left: -25px;
+     width: 160px;
+ }
+}
+
+@media screen and (max-width: 514px) {
+    .blue-content {
+        margin-top: 60px;
+    }
+
+    .blue-text {
+        line-height: 30px;
+        font-size: 24px;
+    }
+
+    .text-wrapper {
+        width: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .first-text {
+        font-size: 16px;
+    }
+
+    .first-section-blue-block {
+        display: block;
+    }
+
+    .first-section-blue-block > img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .lack-energy {
+        margin-left: 5%;
+        width: 95%;
+    }
+    .lack-energy-content > h2 {
+        width: 95%;
+    }
+
+    .lack-energy-content {
+        width: auto;
+        margin: 30px auto;
+    }
+
+    .lack-energy-content > p {
+        width: 100%;
+    }
+
+    .red-button-field {
+        margin-top: 20px;
+        padding-bottom: 5%;
+    }
+
+    .slider-wrapper {
+        max-width: 388px;
+    }
+
+        .resource-blue-block {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .second-section > h2 {
+        line-height: 37px;
+    }
+
+    .blue-line-buy {
+        height: auto;
+    }
+
+    .two-bloks {
+        display: block;
+    }
+
+    .second-section-block {
+        width: 100%;
+    }
+
+    .slider-container {
+        margin-top: 10px;
+    } 
+    
+    .resource-item {
+        margin: 20px;
+    }
+
+    .tns-nav {
+        margin-top: -60px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .blue-rectangle {
+        margin: 0px auto;
+    }
+
+    .figure-rectangle-top {
+        display: none;
+    }
+
+    .first-section-blue-block > img {
+        display: none;
+    }
+
+    .first-section-img-mob {
+        display: block;
+        width: 100%;
+    }
+
+    .first-section-img-mob > img {
+        width: 100%;
+    }
+
+    .small-figure {
+        display: none;
+    }
+
+    .optimum-features-mob {
+        display: block;
+        border-bottom: 2px solid #273574;
+        padding: 15px 0 10px;
+        text-align: left !important; 
+        background: #ffffff;
+        font-size: 22px;
+        color:  #273574;
+        width: 95%;
+        margin: -20px auto 0;
+        font-weight: 600;
+    }
+
+    .optimum-features {
+        padding: 0 5%;
+    }
+
+    .blue-line {
+        display: none;
+    }
+
+    .blue-buy-wrapper {
+        height: auto;
+    }
+
+    .second-section-block > h3 {
+         line-height: 0px;
+         margin-top: 34px;
+    }
+
+    .third-section {
+        width: 100%;
+        display: block;
+        margin: 20px auto;
+        background: #ffffff;
+    }
+
+    .section-inner {
+        display: none;
+        background-image: linear-gradient(to right, #d0e5f0 0%, #bddeef 100%);
+    }
+
+    .section-inner > img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .red-button-field {
+        justify-content: center;
+    }
+
+    .blue-line-buy {
+        margin: -195px auto 0;
+        width: 95%;
+    }
+
+    .blue-text-block {
+        margin-top: 54px;
+    }
+
+    .cart-block {
+        display: flex;
+        margin: 40px auto;
+        position: relative;
+    }
+
+    .small-figure-buy {
+        left: 240px;
+        bottom: 248px;
+    }
+
+    .blue-inner-content {
+        padding-top: 125px;
+        margin: 0 auto;
+    }
+
+    .blue-btn {
+	display: block;
+        margin: 20px auto;
+    }
+    
+    .blue-content-wrapper-btn {
+        padding-bottom: 20px;
+    }
+
+    .blue-content-wrapper-btn > a {
+        text-decoration: none;
+    }
+
+    .centered-compact-block {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .cunsomers-slider-image {
+        padding-bottom: 20px;
+    }
+
+    .consumption-item-mob {
+        margin: 0 auto;
+        width: 90%;
+        height: 310px;
+        padding-top: 20px;
+        background-image: linear-gradient(#FFFFFF, #4C588C);
+    }
+
+    .consumption-photo-mob {
+        margin: 5% auto;
+        display: block;
+        text-align: center;
+    }
+
+    .consumption-text-mob {
+        text-align: center;
+        color: #174985;
+    }
+
+    .tns-nav button {
+        margin: 10px;
+    }    
+
+    .inner-consumption-content {
+        display: none;
+    }
+    
+    .slider-cunsomers-mobile {
+        display: none;
+    }
+
+    .consumption-container-mobile,
+    .left-bottom-figure {
+        display: block;
+    }
+
+    .consumption-item {
+        display: block;
+    }
+
+    .consumption-text-mob {
+        width: 90%;
+        margin: 0 auto;
+}
+
+    .left-bottom-figure-wrapper, .left-bottom-figure {
+        display: none;
+    }
+
+    .figure-rectangle-bottom {
+        margin-left: 0;
+    }
+
+    .text-info-wrapper {
+        width: 405px;
+        display: block;
+    }
+
+    .text-info-2 {
+        margin-top: 20px;
+    }
+
+    .slider-wrapper {
+        max-width: 310px;
+    }
+
+    .bx-wrapper img {
+        max-width: 64%;
+    }
+
+    .bx-wrapper .bx-controls-direction a {
+        top: 43% !important;
+    }
+
+    .two-bloks-container {
+        display: none;
+    }
+
+    .inside {
+        border-top: 2px solid #273574;
+        border-bottom: 2px solid #273574;
+        padding: 15px 0 10px 0;
+        text-align: left !important;        
+    }
+
+    .consumers {
+        border-bottom: 2px solid #273574;
+        padding: 0 0 15px 0;
+        text-align: left !important; 
+        margin-top: -20px;
+    }
+
+    .optimum-features > h2 {
+        margin-top: 20px;
+    }
+
+    .second-section > h2, .h2 {
+        margin: 0 auto;
+        width: 95%;
+        font-size: 22px;
+        line-height: normal;
+    }
+
+    .consumers-block {
+        display: none;
+    }
+
+    .slider-wrapper {
+        display: none;
+    }
+
+    .cunsomers-slider-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .fifth-section {
+        margin: 0 auto;
+        margin-bottom: 0!important;
+        background: transparent;
+    }
+
+    .fifth-section > h2 {
+        font-weight: 600;
+    } 
+
+    .where-to-buy-mob {
+        display: block;
+        border-bottom: 2px solid #273574;
+        padding: 15px 0 10px;
+        text-align: left !important; 
+        background: #ffffff;
+        font-size: 22px;
+        color:  #273574;
+        width: 95%;
+        margin: -40px auto 0;
+    }
+
+    .buy {
+        display: none;
+    }
+
+    .blue-buy-wrapper {
+        display: none;
+    }
+
+    .right-top-figure {
+        display: none;
+    }
+
+    .ideal {
+        border-bottom: 2px solid #273574;
+        padding: 0 0 10px 0;
+        text-align: left !important; 
+        margin-top: -25px !important; 
+    }
+
+    .ideal-consumption {
+        display: none;
+    }
+
+    .prepare {
+        display: none;
+    }
+
+    .prepare-mob {
+        display: block;
+        border-bottom: 2px solid #273574;
+        padding: 15px 0 25px;
+        text-align: left !important; 
+        background: #ffffff;
+        font-size: 22px;
+        color:  #273574;
+        width: 95%;
+        margin: 0px auto 0;
+        font-weight: 600;
+    }
+
+    .sixth-block {
+        display: none;
+        padding: 10px 0;
+    }
+
+    .slider-container {
+        display: none;
+    }
+
+    .reminders {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+     .consumption-item-mob {
+            margin: 0 auto 10px;
+    }
+
+    h2.resources {
+        text-align: left;
+        padding: 15px 0 10px 0;
+    }
+
+    .consumption-container-mobile {
+        padding-bottom: 20px;
+    }
+
+    .here {
+        background-image: url(../sites/g/files/dnigna286/files/clickhere.png);
+        width: 132px;
+        margin: 0 auto;
+    }
+
+    .text-info-wrapper {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .text-info {
+        color: transparent;
+    }
+
+    .resource-blue-block {
+        text-align: center;
+    }
+
+    .blue-read-more {
+        position: relative;
+        bottom: -25px;
+    }
+
+    .arrow-toggle {
+        text-align: right;
+    }
+
+    .arrow-1, .arrow-3, .arrow-5, .arrow-7 {
+        display: block;
+        margin-top: -25px;
+    }
+
+    .arrow-2, .arrow-4 {
+        display: block;
+        margin-top: -20px;
+    }
+
+    .arrow-6 {
+        display: block;
+        margin-top: -35px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .video-wrapper, 
+    .video-wrapper > img {
+        width: 100%;
+    }
+
+    .text-info-wrapper {
+        width: 300px;
+    }
+
+    .consumption-photo, .consumption-photo-right {
+        display: none;
+    }
+
+    .consumption-photo > img {
+        left: 0px;
+        width: 100%;
+    }
+
+    .consumption-item-content-right {
+        width: 160px;
+        margin-left: 0;
+    }
+
+    .consumption-item-content-left {
+        width: 250px;
+        margin-right: 0;
+    }
+
+    .consumption-item-content-left > p {
+        margin-top: 92px;
+        margin-left: 0;
+        margin-top: 0;
+        text-align: center;
+        width: 320px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .item-bottom {
+        margin-top: 0;
+    }
+
+    .consumption-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .consumption-item-content-right > p {
+        width: 320px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .fifth-section {
+        margin-bottom: 96px;
+    }
+
+    .consumption-item-content-left {
+        height: 40px;
+    }
+
+    .consumption-item {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .text-info-wrapper {
+        width: 277px;
+        display: block;
+        margin-left: 20px;
+    }
+
+    .resource-blue-block {
+        width: 90%;
+        height: 395px;
+    }
+
+    .slider-wrapper {
+        max-width: 260px;
+    }
+
+    .bx-wrapper img {
+        max-width: 58%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .figure-rectangle-top {
+        margin-left: 0%;
+    }
+
+    .consumption-item-content-right > p,
+    .consumption-item-content-left > p {
+        width: 300px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .consumption-small-figure {
+        margin-left: 197px;
+    }
+
+    .fifth-section {
+        margin-bottom: 125px;
+    }
+
+    .slider-wrapper {
+        max-width: 220px;
+    }
+
+    .bx-wrapper img {
+        max-width: 55%;
+    }
+
+    .resource-blue-block {
+        text-align: center;
+    }
+
+    .blue-read-more {
+        position: relative;
+        bottom: -15px;
+    }
+}
+    </style>
+
+    <!--<link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <!-- <script type="text/javascript" src="slick/slick.js"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"> -->
+
+    <script
+    src="https://kit.fontawesome.com/18d919ba4a.js"
+    crossorigin="anonymous"
+    ></script>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+  </script>
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css"
+/>
+    <!--[if (lt IE 9)
+      ]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.helper.ie8.js"></script
+    ><![endif]-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+   
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class = "wrapper">
+        <!--<div class = figure-rectangle-top><img src = "/sites/g/files/dnigna286/files/figure.png" alt = "figure rectangles"></div>-->
+        <a name="home"></a>
+        <div class = "blue-rectangle">
+            <div class = "blue-rectangle-inner">
+            <div class = "logo-section">
+                <img src = "/sites/g/files/dnigna286/files/nestle-logo.png" alt = "Nestle Logo">
+            </div>
+            <div class = "blue-content">
+                <img src = "/sites/g/files/dnigna286/files/nestle-bottle.png" alt = "Nutren pack">
+                <div class = "text-wrapper">
+                    <span class = "blue-text">Optimum</span>
+                    <span class = "blue-text">Strength,</span>
+                    <span class = "blue-text">Optimum</span>
+                    <span class = "blue-text">Defence</span>
+                </div>
+                <div class = "video-wrapper">
+                    <iframe width="100%" height="195" 
+                    src="https://www.youtube.com/embed/toHeIPLVtJ0" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+            <!--<div class = "figure-rectangle-bottom">
+                <img src = "/sites/g/files/dnigna286/files/figure.png" alt = "figure rectangles"> 
+            </div>-->
+            </div>           
+        </div>
+        <div class = "blue-line">
+            <a href = "#home"><img src = "/sites/g/files/dnigna286/files/btn-home.png" alt = "button home"></a>
+            <a href = "#energy"><img src = "/sites/g/files/dnigna286/files/btn-energy.png" alt = "button energy"></a>
+            <a href = "#features"><img src = "/sites/g/files/dnigna286/files/btn-features.png" alt = "button features"></a>
+            <a href = "#testimonials"><img src = "/sites/g/files/dnigna286/files/btn-testimonials.png" alt = "button testimonials"></a>
+            <a href = "#where"><img src = "/sites/g/files/dnigna286/files/btn-where.png" alt = "button buy"></a>
+            <a href = "#articles"><img src = "/sites/g/files/dnigna286/files/btn-articles.png" alt = "button articles"></a>
+        </div> 
+        <section><a name="energy"></a>
+            <div class = "inner-section">
+            <div class = "first-section">                           
+            <p class = "first-text">Nutren Optimum is a tasty and complete nutritional formula that helps adults aged 50 years and above stay active, strong, and mobile. It contains high-quality whey protein that aids in building muscle strength, and probiotics to improve gut health. When digestive health is well taken care of, the body can defend itself against infections. Incorporate Nutren Optimum into your diet for <strong>Optimum Strength, Optimum Defence</strong> today.</p>
+            <a href = "https://www.nestlehealthscience.my/form/free-sample-request-" target = "_blank">
+                <div class = "sample">
+                    <div class = "free-sample-text">Free sample</div>
+                </div>
+            </a>
+                <div class = "first-section-blue-block">
+                    <img src = "/sites/g/files/dnigna286/files/runners.png" alt = "runners">
+                    <!--Mobile-version-img-->
+                    <div class = "first-section-img-mob">
+                        <img src = "/sites/g/files/dnigna286/files/runners-mob_0.png" alt = "runners">
+                    </div>
+                    <div class = "lack-energy">
+                        <div class = "lack-energy-content">                            
+                        <h2>DO YOU LACK ENERGY & FEEL TIRED ALL THE TIME?</h2>
+                        <p>This simple self-assessment test provides tips on how to improve your energy levels.</p>
+                        <a name="features"></a>
+                        <div class = "red-button-field">
+                            <a href = "https://www.nestlehealthscience.my/health-management/aging/self-assessment" target = "_blank"><div class = "take-test-btn">TAKE THE TEST</div></a>
+                        </div>
+                        </div>
+                    </div>
+                    <!--<div class = "small-figure"><img src = "/sites/g/files/dnigna286/files/small-figure.png" alt = "small figure"></div>-->
+                </div>
+            </div>
+        </div> 
+        </section> 
+       
+        <section class = "second-section">            
+             <h2 class = "inside">INSIDE NUTREN OPTIMUM
+            <div class = "arrow-1 arrow-toggle">
+                <img src = "/sites/g/files/dnigna286/files/arrow-down.png">
+            </div>
+            </h2>
+            <div class = "two-bloks-container">
+                <p class = "discover">Discover what makes Nutren Optimum the ideal nutritional drink for adults as they grow older.</p>
+            <div class = "two-bloks">
+                <div class = "second-section-block">
+                    <img src = "/sites/g/files/dnigna286/files/muscul.png" alt = "muscul">
+                    <h3>FOR MUSCLE STRENGTH</h3>
+                    <p>High quality whey protein with a 50% whey protein blend that contributes to the whey protein blend that contributes to the </p>
+                </div>
+                <div class = "second-section-block">
+                    <img src = "/sites/g/files/dnigna286/files/protected.png" alt = "protected">
+                    <h3>FOR A HEALTHIER GUT</h3>
+                    <p>Formulated with vitamin E and B6, folate, protein, prebiotics, and probiotics.</p>
+                </div>
+            </div>
+            </div>
+        </section> 
+        <section class = "third-section">
+            <h2 class = "optimum-features-mob">OPTIMUM FEATURES
+                <div class = "arrow-2 arrow-toggle">
+                    <img src = "/sites/g/files/dnigna286/files/arrow-down.png">
+                </div>
+            </h2>
+            <div class = "section-inner">
+                <img src = "/sites/g/files/dnigna286/files/nutren_2.png" alt = "nutren pack">
+                <div class = "optimum-features">
+                    <h2 class = "h2">OPTIMUM FEATURES</h2>
+                    <ul>                   
+                        <li>• &nbsp;&nbsp;&nbsp;50% high quality whey protein</li>
+                        <li>• &nbsp;&nbsp;&nbsp;Healthy fat blend, met AHA (2006) & ADA (2008) guidelines</li>
+                        <li>• &nbsp;&nbsp;&nbsp;High in MUFA (22% TEI)</li>
+                        <li>• &nbsp;&nbsp;&nbsp;Ѡ6 : Ѡ3 = 5:1</li> <a name="testimonials"></a>
+                        <li>• &nbsp;&nbsp;&nbsp;3g of Prebio¹ (70% FOS :30% Inulin) per serving</li>
+                        <li>• &nbsp;&nbsp;&nbsp;550 million cfu of Probiotics (Lactobacillus Paracasei) per serving</li>
+                        <li>• &nbsp;&nbsp;&nbsp;41 mgαTE of Vitamin E per serving</li>
+                    </ul>
+                </div>
+            </div> 
+        </section>
+        <section class = "second-section">           
+            <h2 class = "h2 consumers">WHAT OUR CONSUMERS SAY
+                <div class = "arrow-3 arrow-toggle">
+                    <img src = "/sites/g/files/dnigna286/files/arrow-down.png">
+                </div>
+            </h2>            
+            <p class = "consumers-block">97% of Malaysians said they would recommend Nutren Optimum, giving it a 4.8/5 rating.</p>
+            <div class = "slider-wrapper"><a name="where"></a>
+            <div class="slider">
+              <div><img src = "/sites/g/files/dnigna286/files/Slide-1.png" alt = "slider-img"></div>
+              <div><img src = "/sites/g/files/dnigna286/files/Asset-2.png" alt = "slider-img"></div>
+              <div><img src = "/sites/g/files/dnigna286/files/Slide-3_0.png" alt = "slider-img"></div>
+            </div>
+          </div> 
+
+          <!-- Mobile Cunsomers Slider -->
+          <div class="slider-cunsomers-mobile">
+            <div class="navSlidercuns">
+              <div class="navSliderItem">                
+                <div class = "cunsomers-slider-image">
+                    <img src = "/sites/g/files/dnigna286/files/mob-slide-1_0.png" alt = "slider-img">               
+                  </div>
+              </div>
+  
+              <div class="navSliderItem">               
+                <div class = "cunsomers-slider-image">
+                    <img src = "/sites/g/files/dnigna286/files/mob-slide-2.png" alt = "slider-img">              
+                  </div> 
+              </div>
+  
+              <div class="navSliderItem">              
+                <div class = "cunsomers-slider-image">
+                    <img src = "/sites/g/files/dnigna286/files/mob-slide-3_0.png" alt = "slider-img">               
+                  </div>  
+              </div> 
+
+            </div>
+          </div>         
+        </section>
+        <section class = "fifth-section">            
+            <h2 class = "where-to-buy-mob">WHERE TO BUY
+                <div class = "arrow-4 arrow-toggle">
+                    <img src = "/sites/g/files/dnigna286/files/arrow-down.png">
+                </div>
+            </h2>
+            <h2 class = "h2 buy">Where to buy</h2>
+            <div class = "blue-buy-wrapper">
+                <div class = "cart-block"></div>
+                <!--<div class = "small-figure-buy"><img src = "/sites/g/files/dnigna286/files/figure-mini.png" alt = "small figure"></div> -->
+                <div class = "blue-line-buy">
+                    <div class = "blue-inner-content">
+                    <div class = "blue-text-block">
+                        <h3>PURCHASE ONLINE</h3>
+                        <p>CLICK BELOW TO PURCHASE PRODUCT</p>
+                    </div>
+                    <div class = "blue-content-wrapper-btn">
+                        <a href = "https://www.lazada.com.my/products/nutren-optimum-400g-i605026680-s1236064258.html?spm=a2o4k.searchlistcategory.list.28.18725486Queucz&search=1" target = "_blank"><button class = "blue-btn">BUY NOW 400g</button></a>
+                        <a href = "https://www.lazada.com.my/products/nutren-optimum-800g-i605058416-s1236076120.html?spm=a2o4k.searchlistcategory.list.13.41525486lZ4prh&search=1" target = "_blank"><button class = "blue-btn">BUY NOW 800g</button></a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class = "second-section">          
+            <h2 class = "h2 ideal">IDEAL CONSUMPTION
+                <div class = "arrow-5 arrow-toggle">
+                    <img src = "/sites/g/files/dnigna286/files/arrow-down.png">
+                </div>
+            </h2>
+            <div class = "centered-compact-block ideal-consumption">
+              <!--<div class = "right-top-figure"><img src = "/sites/g/files/dnigna286/files/figure.png" alt = "figure rectangles"></div>-->
+                <div class = "inner-consumption-content">
+                    <div class = "consumption-line">
+                        <div class = "consumption-item">
+                            <div class = "consumption-item-content-left">
+                                <p>For pre & post-operative nutrition</p>
+                            </div>
+                            <div class = "consumption-photo">
+                                <img src = "/sites/g/files/dnigna286/files/item-1.png" alt = "photo">
+                            </div>
+                        </div>
+                        <div class = "consumption-item">
+                            <div class = "consumption-item item-bottom">  
+                                <div class = "consumption-photo-right">
+                                    <img src = "/sites/g/files/dnigna286/files/item-2.png" alt = "photo">
+                                </div>
+                                <div class = "consumption-item-content-right">
+                                    <p>For loss of appetite or insuffcient oral nutritional intake</p>
+                                </div>
+                            </div>                           
+                        </div>
+                    </div>
+                    <div class = "consumption-line">
+                        <div class = "consumption-item">
+                            <div class = "consumption-item-content-left">
+                                <p>For the frail and elderly</p>
+                            </div>
+                            <div class = "consumption-photo">
+                                <img src = "/sites/g/files/dnigna286/files/item-3.png" alt = "photo">
+                            </div>
+                        </div>
+                        <div class = "consumption-item">
+                            <div class = "consumption-item item-bottom">  
+                                <div class = "consumption-photo-right">
+                                    <img src = "/sites/g/files/dnigna286/files/item-4.png" alt = "photo">
+                                </div>
+                                <div class = "consumption-item-content-right">
+                                    <p>For those in need of extra nourishment</p>
+                                </div>
+                            </div>                           
+                        </div>
+                    </div>
+                    <div class = "consumption-line">
+                        <div class = "consumption-item">
+                            <div class = "consumption-item-content-left">
+                                <p>For busy adults that tend to skip meals</p>
+                            </div>
+                            <div class = "consumption-photo">
+                                <img src = "/sites/g/files/dnigna286/files/item-5.png" alt = "photo">
+                            </div>
+                        </div>
+                        <div class = "consumption-item">
+                            <div class = "consumption-item item-bottom">  
+                                <div class = "consumption-photo-right">
+                                    <img src = "/sites/g/files/dnigna286/files/item-6.png" alt = "photo">
+                                </div>
+                                <div class = "consumption-item-content-right">
+                                    <p>As a supplement to complete a healthy meal or as a sole source of nutrition</p>
+                                </div>
+                            </div>                           
+                        </div>
+                    </div>
+                 <!--   <div class = "consumption-small-figure"><img src = "/sites/g/files/dnigna286/files/small-figure.png" alt = "small figure"></div>   -->
+                </div>
+                <!-- Mobile Consumption Slider -->
+                <div class="slider-container-2 consumption-container-mobile">
+                    <div class="navSlidercons">
+                      <div class="navSliderMob">                
+                        <div class = "consumption-item-mob">
+                            <div class = "consumption-photo-mob">
+                                <img src = "/sites/g/files/dnigna286/files/item-1.png" alt = "photo">
+                            </div>
+                            <div class = "consumption-text-mob">
+                                <p>For pre & post-operative nutrition</p>
+                            </div>
+                        </div> 
+                      </div>
+          
+                      <div class="navSliderMob">               
+                        <div class = "consumption-item-mob">
+                            <div class = "consumption-photo-mob">
+                                <img src = "/sites/g/files/dnigna286/files/item-2.png" alt = "photo">
+                            </div>
+                            <div class = "consumption-text-mob">
+                                <p>For loss of appetite or insuffcient oral nutritional intake</p>
+                            </div>
+                        </div>
+                      </div>
+          
+                      <div class="navSliderMob">              
+                        <div class = "consumption-item-mob">
+                            <div class = "consumption-photo-mob">
+                                <img src = "/sites/g/files/dnigna286/files/item-3.png" alt = "photo">
+                            </div>
+                            <div class = "consumption-text-mob">
+                                <p>For the frail and elderly</p>
+                            </div>
+                        </div> 
+                      </div> 
+                      <div class="navSliderMob">              
+                        <div class = "consumption-item-mob">
+                            <div class = "consumption-photo-mob">
+                                <img src = "/sites/g/files/dnigna286/files/item-4.png" alt = "photo">
+                            </div>
+                            <div class = "consumption-text-mob">
+                                <p>For those in need of extra nourishment</p>
+                            </div>
+                        </div> 
+                      </div> 
+                      <div class="navSliderMob">              
+                        <div class = "consumption-item-mob">
+                            <div class = "consumption-photo-mob">
+                                <img src = "/sites/g/files/dnigna286/files/item-5.png" alt = "photo">
+                            </div>
+                            <div class = "consumption-text-mob">
+                                <p>For busy adults that tend to skip meals</p>
+                            </div>
+                        </div> 
+                      </div>                      
+                      <div class="navSliderMob">              
+                        <div class = "consumption-item-mob">
+                            <div class = "consumption-photo-mob">
+                                <img src = "/sites/g/files/dnigna286/files/item-6.png" alt = "photo">
+                            </div>
+                            <div class = "consumption-text-mob">
+                                <p>As a supplement to complete a healthy meal or as a sole source of nutrition</p>
+                            </div>
+                        </div> 
+                      </div> 
+                </div> 
+              </div>
+            </div>
+              <!--<div class = "left-bottom-figure-wrapper"></div>
+              <div class = "left-bottom-figure"><img src = "/sites/g/files/dnigna286/files/figure.png" alt = "figure rectangles"></div>-->
+        </section>
+        <section class = "sixth-section">
+            <h2 class = "prepare-mob">HOW TO PREPARE <br>NUTREN OPTIMUM
+                <div class = "arrow-6 arrow-toggle">
+                    <img src = "/sites/g/files/dnigna286/files/arrow-down.png">
+                </div>
+            </h2>
+          <div class = "centered-compact-block">
+          <div class = "sixth-block">
+          <h2 class = "h2 prepare">HOW TO PREPARE NUTREN OPTIMUM</h2>          
+          <div class = "outher-content-wrapper"> 
+            <div class = "img-center-block"> 
+            <div class = "img-wrapper">
+              <img src = "/sites/g/files/dnigna286/files/preparing-1.png" alt = "preparing">
+              <img src = "/sites/g/files/dnigna286/files/preparing-2.png" alt = "preparing">
+              <img src = "/sites/g/files/dnigna286/files/preparing-3.png" alt = "preparing">
+              <img src = "/sites/g/files/dnigna286/files/preparing-4.png" alt = "preparing">
+            </div>
+          </div>
+            <div class = "reminders">
+              <h3>Reminders</h3>
+              <ol>
+                1. <li>All prepared products should be tightly covered & consumed within 6 hours at room temperature or within 24 hours if refrigerated.</li>
+                2. <li>Once opened, use within 1 month. </li>
+                3. <li>Store in a cool, dry place.</li>
+                4. <li>Not suitable for children below 4 years of age. </li>
+              </ol>
+            </div>
+            <div class = "link-content-wrapper">
+            <div class = "text-info-wrapper">
+              <p class = "text-info">Click</p><a href = "https://www.nestlehealthscience.my/brands/nutren/nutren-optimum" target = "_blank"><span class = "here"></span></a> <p class = "text-info-2">for full nutritional info</p>
+            </div>
+            </div>
+            </div>
+            </div>
+          </div>
+        </section>
+        <section class = "second-section">
+            <a name="articles"></a>
+          <h2 class = "h2 resources">NUTRITION RESOURCES FOR YOU
+            <div class = "arrow-7 arrow-toggle">
+                <img src = "/sites/g/files/dnigna286/files/arrow-down.png">
+            </div>
+          </h2>
+          <div class="slider-container">
+            <div class="navSlider">
+              <div class="navSliderItem">                
+                <div class = "resource-item">
+                    <div class = "resource-photo">
+                      <img src = "/sites/g/files/dnigna286/files/item-7.png" alt = "photo">
+                    </div>
+                      <div class = "resource-blue-block">
+                        <h3>ADAPTING TO CHANGING NUTRITIONAL NEEDS IN AGEING</h3>
+                        <p>Changes in energy metabolism and body composition commonly occur in older people. That’s why nutrition plays a vital role for older adults to maintain health and achieve longevity.</p>
+                        <a href = "https://www.nestlehealthscience.my/health-management/aging/healthy-living" target = "_blank"><button class = "blue-read-more">Read more</button></a>
+                        <!--<div class = "blue-mini-figure"><img src = "/sites/g/files/dnigna286/files/figure-mini.png" alt = "small figure"></div>-->
+                      </div>                
+                  </div>
+              </div>
+  
+              <div class="navSliderItem">               
+                <div class = "resource-item">
+                    <div class = "resource-photo">
+                      <img src = "/sites/g/files/dnigna286/files/item-8.png" alt = "photo">
+                    </div>
+                      <div class = "resource-blue-block">
+                        <h3>INCREASED NEED FOR PROTEIN</h3>
+                        <p>Even the healthiest of the elderly population, are at risk for inadequate protein intake.</p>
+                        <a href = "https://www.nestlehealthscience.my/health-management/aging/protein-and-its-role-for-overall-health" target = "_blank"><button class = "blue-read-more">Read more</button></a>
+                        <!--<div class = "blue-mini-figure"><img src = "/sites/g/files/dnigna286/files/figure-mini.png" alt = "small figure"></div>-->
+                      </div>                
+                  </div> 
+              </div>
+  
+              <div class="navSliderItem">              
+                <div class = "resource-item">
+                    <div class = "resource-photo">
+                      <img src = "/sites/g/files/dnigna286/files/item-9.png" alt = "photo">
+                    </div>
+                      <div class = "resource-blue-block">
+                        <h3>MAINTAINING MOBILITY</h3>
+                        <p>Muscle, bone and joint health – along with proper weight management - are essential for active and independent living as we age.</p>
+                        <a href = "https://www.nestlehealthscience.my/health-management/aging/maintaining-mobility-as-part-of-healthy-aging" target = "_blank"><button class = "blue-read-more">Read more</button></a>
+                        <!--<div class = "blue-mini-figure"><img src = "/sites/g/files/dnigna286/files/figure-mini.png" alt = "small figure"></div>-->
+                      </div>                
+                  </div>  
+              </div> 
+
+            </div>
+          </div> 
+      </section>  
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src = "freesample.js"></script>
+<script src = "mobile-tooggle.js"></script>
+<script src = "slider-columns.js"></script>
+  </body>
